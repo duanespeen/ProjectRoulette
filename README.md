@@ -1,6 +1,6 @@
 # ProjectRoulette
 
-Completed so far: \n
+Completed so far: <br>
   Random Name Picker 63) 
   <ul>
     <li>Command pattern with undo, redo, add, remove and name picking.</li>
