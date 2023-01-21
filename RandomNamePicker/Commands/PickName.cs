@@ -19,6 +19,7 @@ namespace RandomNamePicker.Commands
         {
             Random a = new();
             var listOfNames = _nameList.GetNames();
+            if (!listOfNames.Any()) return;
             var index = a.Next(0, listOfNames.Count());
             _pickedName.Name = listOfNames.ElementAt(index);
         }
