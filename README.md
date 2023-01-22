@@ -10,3 +10,8 @@ Completed so far: <br><br>
   <ul>
     <li>Finds a complementary color in the RGB model</li>
   </ul>
+  <b>Caesar Cipher Cracker</b> 
+  <ul>
+    <li>Decode any Caeser Cipher string</li>
+    <li>Will run every possible shift if shift is unknown</li>
+  </ul>
