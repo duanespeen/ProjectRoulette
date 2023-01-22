@@ -23,7 +23,7 @@ namespace CaesarCipherCracker
                 else
                 {
                     char c = char.ToUpper(_input[i]);
-                    c = (char)(c - shift);
+                    c = (char)(c - shift % 26);
                     if (c < 'A') c = (char)(c + 26);
                     decoded[i] = char.IsUpper(_input[i]) ? c : char.ToLower(c);
                 }
