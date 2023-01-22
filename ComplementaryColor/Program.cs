@@ -1,9 +1,12 @@
 ﻿using System.Globalization;
 
-/*Take Input
-use int.Parse and NumberStyles.HexNumber to convert the input to an int
-subtract from 0xFFFFFF to get the complement
-convert the int to a hex string with 6 digits
+/*
+    Calculate complementary color from a given color in RGB format.
+
+    Take Input
+    use int.Parse and NumberStyles.HexNumber to convert the input to an int
+    subtract from 0xFFFFFF to get the complement
+    convert the int to a hex string with 6 digits
 */
 
 string input = Console.ReadLine();
